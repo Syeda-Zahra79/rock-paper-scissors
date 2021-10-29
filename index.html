@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanllenge : Game</title>
+</head>
+<style>
+    .game-board {
+        margin: 0 auto;
+        padding: 50px;
+        width: 70%;
+    }
+    #game {
+        display: flex;
+    }
+    #rock, #paper, #scissors {
+        margin: 0 10px;
+    }
+    #btns {
+        margin: 50px;
+    }
+</style>
+<body>
+    <div class="game-board">
+        <h1>Rock.Paper.Scissors!!!</h1>
+        <div id="btns">
+            <button class="btn" id="rock">Rock</button>
+            <button class="btn" id="paper">Paper</button>
+            <button class="btn" id="scissors">Scissors</button>
+        </div>
+        <span class="adding-score"></span>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
